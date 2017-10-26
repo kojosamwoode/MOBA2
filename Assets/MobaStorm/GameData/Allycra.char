@@ -1,0 +1,77 @@
+{
+    "m_dataIdentifier": "Entity_Allycra",
+    "m_dataDisplayName": "",
+    "m_prefab": "Entity_Allycra",
+    "m_canvasPrefab": "CharacterCanvas",
+    "m_spawnParticle": "CharSpawnParticle",
+    "m_spawnParticlePosition": 4,
+    "m_deathPrefabParicle": "",
+    "m_deathParticlePosition": 4,
+    "m_respawnType": 2,
+    "m_respawnTime": 10.0,
+    "m_icon": "Allycra_Sprite",
+    "m_usesPathFinfing": true,
+    "m_team": 0,
+    "m_baseAd": 125.0,
+    "m_adPerLevel": 3.0,
+    "m_baseAp": 50.0,
+    "m_armor": 20.0,
+    "m_armorPerLevel": 3.0,
+    "m_apRes": 0.0,
+    "m_healthPerLevel": 85.0,
+    "m_healthMax": 450.0,
+    "m_healthRegenerate": 1.2999999523162842,
+    "m_manaMax": 150.0,
+    "m_manaRegeneration": 2.0,
+    "m_speed": 1.399999976158142,
+    "m_characterAbilities": [
+        "Allycra_Basic",
+        "Allycra_Q",
+        "Allycra_W",
+        "Allycra_E",
+        "Allycra_R"
+    ],
+    "m_animationDataList": [
+        {
+            "m_animation": 1,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 2,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 3,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 4,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 5,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 6,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 7,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 8,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 9,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 13,
+            "m_animationSpeed": 1.0
+        }
+    ],
+    "m_characterName": ""
+}

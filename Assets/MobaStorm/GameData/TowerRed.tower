@@ -1,0 +1,32 @@
+{
+    "m_dataIdentifier": "Entity_Tower_Red",
+    "m_dataDisplayName": "Tower Red",
+    "m_prefab": "Entity_Tower_Red",
+    "m_canvasPrefab": "HealthCanvas",
+    "m_spawnParticle": "",
+    "m_spawnParticlePosition": 4,
+    "m_deathPrefabParicle": "FX_TowerElectricLoop",
+    "m_deathParticlePosition": 3,
+    "m_respawnType": 0,
+    "m_respawnTime": 0.0,
+    "m_icon": "TowerMiniMap_Red",
+    "m_usesPathFinfing": false,
+    "m_team": 4,
+    "m_baseAd": 0.0,
+    "m_adPerLevel": 3.0,
+    "m_baseAp": 0.0,
+    "m_armor": 40.0,
+    "m_armorPerLevel": 3.0,
+    "m_apRes": 0.0,
+    "m_healthPerLevel": 85.0,
+    "m_healthMax": 3500.0,
+    "m_healthRegenerate": 0.0,
+    "m_manaMax": 150.0,
+    "m_manaRegeneration": 0.0,
+    "m_speed": 0.0,
+    "m_characterAbilities": [
+        "Tower_BlueA_Basic"
+    ],
+    "m_animationDataList": [],
+    "m_detectionRange": 4.0
+}

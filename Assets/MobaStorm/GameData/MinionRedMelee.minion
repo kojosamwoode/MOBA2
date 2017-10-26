@@ -1,0 +1,49 @@
+{
+    "m_dataIdentifier": "Entity_MinionRedMelee",
+    "m_dataDisplayName": "Minion Red",
+    "m_prefab": "Entity_MinionRedMelee",
+    "m_canvasPrefab": "HealthCanvasSmall",
+    "m_spawnParticle": "",
+    "m_spawnParticlePosition": 4,
+    "m_deathPrefabParicle": "",
+    "m_deathParticlePosition": 4,
+    "m_respawnType": 1,
+    "m_respawnTime": 0.0,
+    "m_icon": "",
+    "m_usesPathFinfing": true,
+    "m_team": 4,
+    "m_baseAd": 0.0,
+    "m_adPerLevel": 0.0,
+    "m_baseAp": 0.0,
+    "m_armor": 10.0,
+    "m_armorPerLevel": 0.0,
+    "m_apRes": 5.0,
+    "m_healthPerLevel": 0.0,
+    "m_healthMax": 445.0,
+    "m_healthRegenerate": 0.0,
+    "m_manaMax": 100.0,
+    "m_manaRegeneration": 0.0,
+    "m_speed": 1.0,
+    "m_characterAbilities": [
+        "Minion_Melee_Basic"
+    ],
+    "m_animationDataList": [
+        {
+            "m_animation": 2,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 1,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 3,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 8,
+            "m_animationSpeed": 1.0
+        }
+    ],
+    "m_aggroRange": 3.0
+}

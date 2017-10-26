@@ -1,0 +1,24 @@
+{
+    "m_minionAggrRange": 0.0,
+    "m_maxChasingDistance": 3.0,
+    "m_targetPathUpdateRate": 0.5,
+    "m_targetUpdateRate": 0.4000000059604645,
+    "m_pathUpdateRate": 3.0,
+    "m_waveSpawnStartDelay": 0.0,
+    "m_waveSpawnDelay": 40.0,
+    "m_accumulativeExpTable": [
+        0,
+        0,
+        250,
+        650,
+        1000,
+        1500,
+        2300,
+        4000,
+        6000,
+        8000,
+        10000,
+        13000,
+        16000
+    ]
+}

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{98BF5CB6-C9B9-507D-0171-74A8A9FB4397}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ability.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\AbilityComponent.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\LaunchedAbilities\BasicFrontAbility.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\LaunchedAbilities\FlyngPositionProjectile.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\LaunchedAbilities\InstantPositionFloorAbility.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\LaunchedAbilities\TargetProjectile.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\AddEntityModEffect.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\DotEffect.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\SideEffect.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\SideEffectPrefab.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\StandingInvulnerability.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\SideEffects\StunEffect.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\AbilityButton.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\ItemButton.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\UiBotPanel.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\UiLeftPanel.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\UiManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\UiStorePanel.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Abilities\Ui\UiTopPanel.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\AudioManager\AudioManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\AudioManager\CustomAudioSource.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Camera\CameraController.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Camera\CharacterCanvas.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\AIEntity.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Abilities\AbilityBase.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Abilities\EntityAbilities.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\AITargetBehaviour.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\AbilitySimplePosition.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\AbilitySimpleTarget.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\Behaviour.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\EntityBehaviour.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Behaviours\TowerTargetBehaviour.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\CharacterEntity.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\EntityAnimator.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\EntityInventory.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\EntityTransform.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\FloatingText.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Logic\CharacterLogic.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Logic\Logic.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Logic\MinionWaveLogic.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Logic\NexusLogic.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\Logic\TowerLogic.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Character\MobaEntity.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Client\MobaClientManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\ClientChat.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\DamageProcess.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Data\GlobalConfig.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\GameEvents.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Input\InputManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\BaseItemContainer.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\Currency.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\InventoryItem.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\InventoryManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\InventoryView.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\MobaItemSpecs.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Inventory\MobaItemType.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\ItemDataBase.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\AbilityManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\GameDataManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\ParticleManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\Grid.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\GridPoints.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\Heap.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\MobaPath.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\Node.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PathFinding\Pathfinding.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\PrefabHolder.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\ScoreBoardManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\ServerEntitySpawner.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\SpawnManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\SpawnPositionManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Managers\SpriteDatabaseManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\MinionSpawnManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\MobaEntityData.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\MonoSingleton.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\MovePointerScript.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\MyNetworkManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\NetworkTime.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Particle\Particle.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\ParticleDestroyer.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Player\MobaPlayer.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Pooling\IPooled.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Server\MobaServerManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\ServerChat.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\TargetIndicator\BasicIndicator.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\TargetIndicator\ImageIndicator.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\TargetIndicator\Indicator.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\AbilityHitTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\CalculatePathTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\PositionAbilityTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\SetAnimationTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\SetNodeResidentTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\SetRotationTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\StopPathTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\TargetAbilityTask.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Task\Task.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\CharacterUiCard.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\EntityCanvas.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\LevelUpButton.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\LevelUpHolder.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\Menu.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\MenuGame.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\MenuManager.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\MenuPickSelection.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\SceneFadeInOut.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\Selection\PlayerSlots.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Ui\Selection\ReadyButton.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\World\WaterfallUvMove.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\World\WaypointCircuit.cs" />
+     <Compile Include="Assets\MobaStorm\Scripts\World\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\MobaStorm\Utils\MiniJSON.cs" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\MobileBloom.shader" />
+     <None Include="Assets\MobaStorm\Textures\Shaders\Standard Outlined.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\MobaStorm\Textures\Shaders\OutlineDifusse.shader" />
+     <None Include="Assets\MobaStorm\Textures\Shaders\OutlinerShader.shader" />
+     <None Include="Assets\MobaStorm\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\MobaStorm\Textures\Shaders\OutlineOnly.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

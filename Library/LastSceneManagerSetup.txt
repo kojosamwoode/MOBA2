@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/MobaStorm/Scenes/RecordingScene.unity
+  isLoaded: 1
+  isActive: 1

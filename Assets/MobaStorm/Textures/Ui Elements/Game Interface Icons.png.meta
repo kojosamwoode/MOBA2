@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 08e245b52e88046e798704a0f9ea4ce0
+timeCreated: 1478370615
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Interface Icons_0
+    21300002: Game Interface Icons_1
+    21300004: Game Interface Icons_2
+    21300006: Game Interface Icons_3
+    21300008: Game Interface Icons_4
+    21300010: Game Interface Icons_5
+    21300012: Game Interface Icons_6
+    21300014: Game Interface Icons_7
+    21300016: Game Interface Icons_8
+    21300018: Game Interface Icons_9
+    21300020: Game Interface Icons_10
+    21300022: RedTeamWin
+    21300024: Game Interface Icons_12
+    21300026: Game Interface Icons_13
+    21300028: Game Interface Icons_14
+    21300030: Game Interface Icons_15
+    21300032: Game Interface Icons_16
+    21300034: Game Interface Icons_17
+    21300036: Game Interface Icons_18
+    21300038: Game Interface Icons_19
+    21300040: Q
+    21300042: Game Interface Icons_21
+    21300044: Game Interface Icons_22
+    21300046: Game Interface Icons_23
+    21300048: Game Interface Icons_24
+    21300050: HealthBarBack
+    21300052: HealthBar
+    21300054: ManaBar
+    21300056: W
+    21300058: E
+    21300060: R
+    21300062: Gold
+    21300064: LvlUp
+    21300066: X_Button
+    21300068: BlueTeamWin
+    21300070: HealthBarWhite
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 1
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Interface Icons_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 457
+        width: 500
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 437
+        width: 490
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 281
+        width: 151
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 399
+        width: 169
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 319
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 279
+        width: 85
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 375
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 125
+        width: 71
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 13
+        width: 749
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_9
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 209
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_10
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 203
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: RedTeamWin
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 374
+        width: 495
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_12
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 11
+        width: 587
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 328
+        width: 571
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 303
+        width: 570
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_15
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 194
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_16
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 266
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_17
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 249
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_18
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 233
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_19
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 216
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Q
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 4
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_21
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 217
+        width: 399
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_22
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 280
+        width: 178
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 491
+        width: 419
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 34, z: 34, w: 34}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Game Interface Icons_24
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 644
+        width: 126
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 4, z: 3, w: 4}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthBarBack
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 243
+        width: 189
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthBar
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 215
+        width: 145
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: ManaBar
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 208
+        width: 145
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: W
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 4
+        width: 91
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: E
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 88
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: R
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 88
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Gold
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 125
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: LvlUp
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 192
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: X_Button
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 256
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: BlueTeamWin
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 378
+        width: 525
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: HealthBarWhite
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 229
+        width: 145
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,38 @@
+{
+    "m_dataIdentifier": "Entity_Nexus_Blue",
+    "m_dataDisplayName": "Nexus Blue",
+    "m_prefab": "Entity_Nexus_Blue",
+    "m_canvasPrefab": "HealthCanvas",
+    "m_spawnParticle": "",
+    "m_spawnParticlePosition": 4,
+    "m_deathPrefabParicle": "FX_TowerElectricLoop",
+    "m_deathParticlePosition": 4,
+    "m_respawnType": 0,
+    "m_respawnTime": 0.0,
+    "m_icon": "",
+    "m_usesPathFinfing": false,
+    "m_team": 2,
+    "m_baseAd": 50.0,
+    "m_adPerLevel": 3.0,
+    "m_baseAp": 50.0,
+    "m_armor": 20.0,
+    "m_armorPerLevel": 3.0,
+    "m_apRes": 0.0,
+    "m_healthPerLevel": 85.0,
+    "m_healthMax": 500.0,
+    "m_healthRegenerate": 5.0,
+    "m_manaMax": 250.0,
+    "m_manaRegeneration": 5.0,
+    "m_speed": 0.0,
+    "m_characterAbilities": [],
+    "m_animationDataList": [
+        {
+            "m_animation": 1,
+            "m_animationSpeed": 1.0
+        },
+        {
+            "m_animation": 8,
+            "m_animationSpeed": 1.0
+        }
+    ]
+}
